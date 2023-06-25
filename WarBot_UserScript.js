@@ -14,6 +14,7 @@
 const apikey = "";
 
 function parsePage(){
+    console.log("running");
 $(".title___rhtB4").after("<button class=\"astwb torn-btn btn-dark-bg\">Request Assist</button>&nbsp;&nbsp;");
 $(".astwb").click(function(){
     var enemy = getID();
