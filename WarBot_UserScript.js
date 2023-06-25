@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WarBot - Asissts
 // @namespace    ApocScripts
-// @version      1.1
+// @version      1.2
 // @grant        GM_addStyle
 // @description  Sends an assist requests to the WarBot disc bot
 // @author       TheApocalypse [1066798]
