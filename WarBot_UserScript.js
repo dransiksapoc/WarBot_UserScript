@@ -7,7 +7,7 @@
 // @author       TheApocalypse [1066798]
 // @grant        GM_xmlhttpRequest
 // @match        https://www.torn.com/loader.php?sid=attack*
-// @downloadURL  
+// @downloadURL  https://raw.githubusercontent.com/dransiksapoc/WarBot_UserScript/main/WarBot_UserScript.js
 // @run-at       document-idle
 // @license      WTFPL
 // ==/UserScript==
