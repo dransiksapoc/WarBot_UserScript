@@ -1,20 +1,20 @@
 // ==UserScript==
 // @name         WarBot - Asissts
 // @namespace    ApocScripts
-// @version      1.2
+// @version      1.2.1
 // @grant        GM_addStyle
 // @description  Sends an assist requests to the WarBot disc bot
 // @author       TheApocalypse [1066798]
 // @grant        GM_xmlhttpRequest
 // @match        https://www.torn.com/loader.php?sid=attack*
 // @downloadURL  https://raw.githubusercontent.com/dransiksapoc/WarBot_UserScript/main/WarBot_UserScript.js
+// @updateURL    https://raw.githubusercontent.com/dransiksapoc/WarBot_UserScript/main/WarBot_UserScript.js
 // @run-at       document-idle
 // @license      WTFPL
 // ==/UserScript==
 const apikey = "";
 
 function parsePage(){
-    console.log("running");
 $(".title___rhtB4").after("<button class=\"astwb torn-btn btn-dark-bg\">Request Assist</button>&nbsp;&nbsp;");
 $(".astwb").click(function(){
     var enemy = getID();
